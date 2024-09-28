@@ -41,7 +41,7 @@ footer {
 }
 .head-item:hover {
   background-color: #00adb5;
-  border: none;
+  border: solid 0.5px #00adb5;
 }
 #head-home {
   padding: 5px;

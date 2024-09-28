@@ -62,7 +62,7 @@ footer {
 }
 
 #profile-pic {
-  background-image: url("../_images/IMG_9433.JPG");
+  background-image: url("../images/IMG_9433.JPG");
   margin: 10px;height: 350px;width: 350px;background-position: -1px -25px;
   background-size: 110%;border-radius: 50%;background-repeat: no-repeat;  
 }

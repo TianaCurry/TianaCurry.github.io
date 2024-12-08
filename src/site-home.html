@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>my website bootstrap website</title>
+    <meta name="author" content="Tiana Curry">
+    <meta name="description" content="my website bootstrap layout">
+    
+    <!--css style-->
+    <link rel="stylesheet" href="../src/_home/site-home.css">
+    
+    <!-- google api repository -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..400">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&Courgette&display=swap" rel="stylesheet">
+    
+    <!--bootstrap-->
+    <!--responsive webpage, for mobile proper rendering and touch zooming-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--lastest compiled and minified css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--latest compiled javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="../src/_home/site-home.js"></script>
+  </head>
+  
+  <body onload="typeWriter()">
+    <!-- ############## -->
+    <!-- head container -->
+    <!-- ############## -->
+    <div class="container-fluid head-container">
+      <!-- row header -->
+      <div class="row header">
+        <!-- columns -->
+        <div class="col-sm-6 header-name header-item">Tiana Curry</div>
+        <div class="col-sm-6 header-links header-item">
+          <div class="nav-list">
+            <a class="nav-item nav-home" href="./site-home.html">
+              <span class="material-symbols-outlined home-icon" alt="google api font home icon">home</span>
+            </a>
+            <a class="nav-item" href="#portfolio">Portfolio</a>
+            <a class="nav-item" href="#experience">Experience</a>
+            <a class="nav-item" href="#blog">Blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ############## -->
+    <!-- main container -->
+    <!-- ############## -->
+    <div class="container-fluid main-container"> 
+      <!-- row about me -->
+      <div class="row about-me">
+        <!-- columns -->
+        <div class="col-sm-6 pic-frame about-item">
+          <div class="about-pic">
+            <!--
+            <img src="../images/personal-site-images/IMG_9433_copy.JPG" alt="my profile picture" class="about-image">
+            -->
+          </div>
+        </div>
+        <div class="col-sm-6 about-frame about-item">
+          <div class="about-info">
+            <p class="my-name">
+              <span class="greetings"></span>
+              <span class="blink-key">|</span>
+            </p>
+            <p class="my-profession">Data Scientist | Software Engineer | Researcher</p>
+          </div>
+          <div class="about-links">
+            <a href="https://github.com/TianaCurry">
+                <img class="icon" src="../images/icon-links-logos/github-mark.svg" alt="github icon"></a>
+            <a href="https://www.linkedin.com/in/tiana-curry/">
+                <img class="icon" src="../images/icon-links-logos/linkedin-logo.svg" alt="linkedin icon"></a>
+            <a href="https://www.instagram.com/datawithtiana/">
+                <img class="icon" src="../images/icon-links-logos/instagram-logo.svg" alt="instagram icon"></a>
+            <a href="">
+                <img class="icon" src="../images/icon-links-logos/youtube-logo.svg" alt="youtube icon"></a>
+            <a class="icon-link" href="javascript:decryptMailto_connection('nbjmup;ujbobdv/etAhnbjm/dpn');">
+                <span class="material-symbols-outlined mail-icon" alt="google api mail icon">mail</span></a>
+            <a class="resume-btn" target="_blank" href="./experience/resume.html">Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- row skills -->
+      <div class="row skills">
+        <!-- columns -->
+        <div id="skill-title" class="col-sm-12 title">SKILLS</div>
+        <div class="col-sm-12 subtitle">machine learning</div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">network_intelligence</span>
+          <p>predictive modeling</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">cloud</span>
+          <p>cloud computing</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">terminal</span>
+          <p>programming</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">data_object</span>
+          <p>software development</p>
+        </div>
+          
+        <div class="col-sm-12 subtitle">database management</div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">database</span>
+          <p>database development</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">storage</span>
+          <p>ETL data integration</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">schema</span>
+          <p>data modeling</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">hub</span>
+          <p>data processing</p>
+        </div>
+          
+        <div class="col-sm-12 subtitle">data analytics</div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">search_insights</span>
+          <p>quantitative research</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">bar_chart</span>
+          <p>data visualization</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">timeline</span>
+          <p>data & statistical analysis</p>
+        </div>
+        <div class="col-sm-3 skills-item">
+          <span class="material-symbols-outlined skills-icon">data_table</span>
+          <p>data wrangling & cleaning</p>
+        </div>
+      </div>
+
+      <!-- row projects -->
+      <div class="row projects">
+        <!-- columns -->
+        <div class="col-sm-12 title">PROJECTS</div>     
+        <div class="col-sm-4 projects-item">
+          <a class="project-link" href="#">
+            <img class="project-image light" src="../images/project-vectors/ECO-ICONS-09.svg">
+            <div class="project-text">
+              A Python Command Line Interface (CLI) tool that automates the extraction, cleaning, and 
+              preprocessing of electricity demand data from 10 countries in Southern African. 
+              This app optimized data wrangling workflows, improving data pipeline efficiency and 
+              enabling advanced analytics for UC Santa Barbara's CETlab. 
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 projects-item">
+          <a class="project-link" href="#">
+            <img class="project-image thumb" src="../images/project-vectors/thumbs-up.svg">
+            <div class="project-text">
+              A recommendation system in Python that predicts H&M purchases to enhance personalized 
+              shopping experiences. Aiming to deliver a tailored shopping experience for customers 
+              by utilizing optimized statistical methods and compareing various machine learning 
+              techniques to identify the best-performing models. 
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 projects-item">
+          <a class="project-link" href="#">
+            <img class="project-image" src="../images/project-vectors/Yw2sgi01.svg">
+            <div class="project-text">
+              A project that highlights the contributions of women researchers through data 
+              visualizations and Natural Language Processing analysis of gender diversity at 
+              the Smithsonian (1856–2015). Key discoveries made by Tiana Curry led to published 
+              papers, presentations, and widespread recognition through features in Smithsonian media.
+            </div>
+          </a>
+        </div>                 
+      </div>
+
+      <!-- row articles -->
+      <div class="row row-cols-sm-3  articles">
+        <!-- columns -->
+        <div class="col-sm-12 title">PRESS</div>
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://www.si.edu/sidedoor/funk-list" target="_blank">
+            <img src="../images/article-images/s09e07-web_small.png"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>Smithsonian Institution Sidedoor Podcast: The Funk List Sidedoor Season 9</p>
+              <p>May 24, 2023</p>
+            </div>
+          </a>
+        </div>    
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://www.sciencedaily.com/releases/2022/08/220808162127.htm" target="_blank">
+            <img src="../images/article-images/science-daily-3.jpg.webp"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>Science Daily: Science News Energizing Africa</p>
+              <p>Aug 8, 2022</p>
+            </div>
+          </a>
+        </div>  
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://ethos.academicdatascience.org/case-studies/crowd-the-tap/" target="_blank">
+            <img src="../images/article-images/Crowd-the-Tap.jpg"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p> ADSA: Data Science Ethos - Crowd the Tap: People Protecting Our Tap Water</p>
+              <p>July 18, 2022</p>
+            </div>
+          </a>
+        </div>   
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://ethos.academicdatascience.org/about/" target="_blank">
+            <img src="../images/article-images/ImageBlockPlaceholder.jpg"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>ADSA: What is the Data Science Ethos?</p>
+              <p>July 18, 2022</p>
+            </div>
+          </a>
+        </div> 
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://womenshistory.si.edu/blog/using-data-science-uncover-work-women-science" target="_blank">
+            <img src="../images/article-images/sawhm-logo-lockup-4x3.jpg"
+                  alt="place holding image"
+                  class="article-image"
+                  id="siawhm">
+            <div class="article-caption">
+              <p>Smithsonian American Women's History Museum: Using Data Science to Uncover the Work of Women</p>
+              <p>Feb 24, 2022</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://datascience.si.edu/AWHISymposium" target="_blank">
+            <img src="../images/article-images/1972_annualreport_0.jpg"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>Smithsonian Data Science Lab: Uncovering the Scientific Impact of Women at the Smithsonian</p>
+              <p>Oct 22, 2020</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://www.universityofcalifornia.edu/news/what-it-means-graduate-2020-ucs-new-grads-reflect-moment" target="_blank">
+            <img src="../images/article-images/happy-young-grad.jpg"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>University of California: What it Means to Graduate in 2020</p>
+              <p>Jun 10, 2020</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://news.ucsb.edu/2020/019929/outstanding-scholarship-and-extraordinary-service" target="_blank">
+            <img src="../images/article-images/perko-3357.jpg"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>UC Santa Barbara: ‘For Outstanding Scholarship and Extraordinary Service’</p>
+              <p>June 8, 2020</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-4 articles-item">
+          <a class="article-link" href="https://datascience.si.edu/news/whatsinaname" target="_blank">
+            <img src="../images/article-images/walcott_specimen2.png"
+                  alt="place holding image"
+                  class="article-image">
+            <div class="article-caption">
+              <p>Smithsonian Data Science Lab: What’s in a Name? Uncovering Stories of Women in Science</p>
+              <p>Apr 14, 2020</p>
+            </div>
+          </a>
+        </div>   
+      </div>
+
+      <!-- row contact me -->
+      <div class="row contact-me">
+        <!-- columns -->
+        <div class="col-sm-12 title contact-me-item">contact me</div>
+      </div> 
+    </div>
+
+    <!-- ############## -->
+    <!-- foot container -->
+    <!-- ############## -->
+    <div class="container-fluid foot-container">
+      <!-- row footer -->
+      <div class="row footer">
+        <!-- columns -->
+        <div class="col-sm-6 web-text footer-item">
+          Web development by Tiana Curry, utilizing HTML, JavaScript, and CSS. 
+          This includes the Bootstrap framework and Google Fonts API, 
+          developed in Visual Studio Code IDE, and managed with Git. 
+          The project was deployed in 2024 and is hosted on GitHub Pages.
+        </div>
+        <div class="col-sm-3 web-contact footer-item">
+          <div class="icon-text"> Contact Me! </div>
+          <div class="icon-box">
+            <a href="https://github.com/TianaCurry">
+              <img class="icon2" src="../images/icon-links-logos/github-mark.svg" alt="github icon"></a>
+            <a href="https://www.linkedin.com/in/tiana-curry/">
+              <img class="icon2" src="../images/icon-links-logos/linkedin-logo.svg" alt="linkedin icon"></a>
+            <a href="https://www.instagram.com/datawithtiana/">
+              <img class="icon2" src="../images/icon-links-logos/instagram-logo.svg" alt="instagram icon"></a>
+            <a href="">
+              <img class="icon2" src="../images/icon-links-logos/youtube-logo.svg" alt="youtube icon"></a>
+            <a class="icon-link" href="javascript:decryptMailto_connection('nbjmup;ujbobdv/etAhnbjm/dpn');">
+              <span class="material-symbols-outlined mail-icon2" alt="google api mail icon">mail</span></a>
+          </div>
+        </div>
+        <div class="col-sm-3 web-up footer-item">
+          <button type="button" class="material-symbols-outlined btn" id="foot-button" onclick="topFunction()">arrow_upward_alt</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -537,6 +537,9 @@ body {
     width: 100%;
 }
 
+/* footer-text*/
+
+
 /* footer info */
 .web-contact {
     width: 100%;
@@ -553,6 +556,9 @@ body {
     line-height: 1.5;
     padding: 10px 10px;
     justify-content: center;
+}
+.web-text:hover {
+    color:#eeeeee;
 }
 
 /* footer button */

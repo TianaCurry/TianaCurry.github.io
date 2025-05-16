@@ -12,3 +12,5 @@
 [![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
 
 [![Watch the video](https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view-1.png)](https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mp4)
+
+https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mov

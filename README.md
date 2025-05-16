@@ -6,20 +6,13 @@
 test 1
 
 <h4>autoplay, with muted</h4>
-<video autoplay muted loop width="320" height="240" controls>
-  <source src="https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511" type="video/mp4">
-  <p>Your browser does not support the video element.</p>
-</video>
+<iframe autoplay muted loop width="320" height="240" controls src="https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511" type="video/mp4">
+</iframe>
 
 test 2
 
-[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
-
 [![Watch the video](https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view-1.png)](https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511)
 
-test 3
-
-![](https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511)
 
 test 4
 

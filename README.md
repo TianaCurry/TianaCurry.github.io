@@ -6,8 +6,8 @@
 test 1
 
 <h4>autoplay, with muted</h4>
-<iframe autoplay muted loop width="320" height="240" controls src="https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511" type="video/mp4">
-</iframe>
+
+<iframe src="https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511"></iframe>
 
 test 2
 

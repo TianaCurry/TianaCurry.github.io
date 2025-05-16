@@ -8,3 +8,7 @@
   <source src="chrome-clip.mp4" type="video/mp4">
   <p>Your browser does not support the video element.</p>
 </video>
+
+[![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
+
+[![Watch the video](https://raw.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view-1.png)](https://raw.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mov)

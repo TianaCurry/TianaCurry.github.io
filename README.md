@@ -16,9 +16,17 @@ Web development by Tiana Curry, utilizing HTML, JavaScript, and CSS. This includ
 
 ## Mobile View Using Bootstrap
 
-<img src="./images/readme-media/mobile-view-1.png" width="50%" height="auto">
+<div class="row">
+  <div class="column" style="float:left; width=50%; padding=5px">
+    <img src="./images/readme-media/mobile-view-1.png" height="auto">
+  </div>
+  <div class="column" style="float:left; width=50%; padding=5px">
+    <img src="./images/readme-media/mobile-view-2.png" height="auto">
+  </div>
+</div>
 
-<img src="./images/readme-media/mobile-view-2.png" width="50%" height="auto">
+
+
 
 ### Mobile View Demo
 

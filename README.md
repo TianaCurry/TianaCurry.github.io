@@ -3,21 +3,20 @@
 
  Web development by Tiana Curry, utilizing HTML, JavaScript, and CSS. This includes the Bootstrap framework and Google Fonts API, developed in Visual Studio Code IDE, and managed with Git. The project was deployed in 2024 and is hosted on GitHub Pages.
 
+test 1
 <h4>autoplay, with muted</h4>
-<video autoplay muted loop width="320" height="240">
-  <source src="./images/readme-media/mobile-view.mp4" type="video/mp4">
+<video autoplay muted loop width="320" height="240" controls>
+  <source src="https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511" type="video/mp4">
   <p>Your browser does not support the video element.</p>
 </video>
 
+test 2
 [![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
 
 [![Watch the video](https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view-1.png)](https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511)
 
-
+test 3
 ![](https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511)
 
-<video width="320" height="240" controls>
-  <source src="./images/readme-media/mobile-view.mov" type="video/mp4">
-</video>
-
+test 4
 https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511

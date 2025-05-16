@@ -13,6 +13,6 @@
 
 [![Watch the video](https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view-1.png)](https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mp4)
 
-https://user-images.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mov
+https://raw.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mov
 
 [![Watch the video]()](./images/readme-media/mobile-view.mov)

@@ -5,7 +5,7 @@
 
 <h4>autoplay, with muted</h4>
 <video autoplay muted loop>
-  <source src="chrome-clip.mp4" type="video/mp4">
+  <source src="./images/readme-media/mobile-view.mp4" type="video/mp4">
   <p>Your browser does not support the video element.</p>
 </video>
 

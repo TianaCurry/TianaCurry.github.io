@@ -25,14 +25,7 @@ Web development by Tiana Curry, utilizing HTML, JavaScript, and CSS. This includ
   </div>
 </div>
 
-
-
-
 ### Mobile View Demo
 
 https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/user-attachments/assets/b23c2713-98e7-4e1d-8e46-9de3ab5e3511" type="video/mp4">
-Your browser does not support the video tag.
-</video>

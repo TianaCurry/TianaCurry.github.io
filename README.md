@@ -15,4 +15,8 @@
 
 https://raw.githubusercontent.com/TianaCurry/TianaCurry.github.io/images/readme-media/mobile-view.mov
 
-[![Watch the video]()](./images/readme-media/mobile-view.mov)
+![](./images/readme-media/mobile-view.mov)
+
+<video width="320" height="240" controls>
+  <source src="./images/readme-media/mobile-view.mov" type="video/mp4">
+</video>
